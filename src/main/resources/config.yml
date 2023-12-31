@@ -1,0 +1,8 @@
+token: "token"
+guild-id: 0000000000000000
+status-channel: 0000000000000000
+chat-channel: 0000000000000000
+admin-log-channel: 0000000000000000
+rpc: "bot-status"
+death-location: false
+server-name: "server-name"

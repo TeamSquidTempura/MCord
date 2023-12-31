@@ -1,0 +1,4 @@
+name: MCord
+version: '${project.version}'
+main: com.squidtempura.www.mcord.MCord
+api-version: '1.19'
