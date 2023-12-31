@@ -1,4 +1,5 @@
 # MCordプラグイン
+<br><img alt="total" src="https://img.shields.io/github/downloads/TeamSquidTempura/MCord/total?style=for-the-badge"><img alt="ダウンロード数" src="https://img.shields.io/github/downloads/TeamSquidTempura/MCord/latest/total?style=for-the-badge"></br>
 ## 使い方
 <br>1.まずは、[ここ](https://github.com/TeamSquidTempura/MCord/releases/latest)から最新のMCordをダウンロードして、導入したいサーバーのpluginsディレクトリに入れて起動してください。</br>
 <br>__※導入前には念のため一度サーバーを停止してから導入してください__</br>
