@@ -1,8 +1,16 @@
 token: "token"
+#BOTのトークン(String)
 guild-id: 0000000000000000
+#GuildのID(Long)
 status-channel: 0000000000000000
+#ステータスチャンネルのID(Long)
 chat-channel: 0000000000000000
+#チャットチャンネルのID(Long)
 admin-log-channel: 0000000000000000
+#アドミンチャンネルのID(Long)
 rpc: "bot-status"
+#BOTのRPC(String)
 death-location: false
+#死亡ログ(Boolean)
 server-name: "server-name"
+#サーバー名(String)
