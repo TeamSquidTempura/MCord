@@ -46,14 +46,11 @@ public final class MCord extends JavaPlugin {
         saveDefaultConfig();
         config = getConfig();
         instance = this;
-        getServer().getPluginManager().registerEvents(new Join(), this);
-        getServer().getPluginManager().registerEvents(new Leave(), this);
-        getServer().getPluginManager().registerEvents(new Chat(), this);
-        getServer().getPluginManager().registerEvents(new Death(), this);
-        getServer().getPluginManager().registerEvents(new Command(), this);
+        getServer().getPluginManager().registerEvents(new Listener(), this);
         String rpc = config.getString("rpc");
         try {
             if (jda != null) return;
+
              jda = JDABuilder.createDefault(config.getString("token"))
                      .enableIntents(GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MESSAGE_REACTIONS, GatewayIntent.MESSAGE_CONTENT)
                      .addEventListeners(new messageListener())
